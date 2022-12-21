@@ -14,7 +14,7 @@ public class C01Valriable {
 		int i = 0;
 		long l= 0;
 		float f = 0.0f;
-		double d= 0.0;
+		double d = 0.0;
 		
 		String str = "hello";//기본타입은아니지만 자주사용한다.
 		
