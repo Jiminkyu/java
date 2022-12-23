@@ -8,8 +8,7 @@ public class Grade {
 		int score = 0;
 		char grade = 0;
 		char plm = 0;
-		//plm = score.intIndex(1);
-				
+		
 		System.out.print("점수: ");
 		score = sc.nextInt();
 		
@@ -17,10 +16,10 @@ public class Grade {
 		else if(80 <= score) grade = 'B';
 		else grade = 'C';
 		
-		if(8 <= score) plm = '+';
-		else if(4 > score) plm = '-';
+		if(8 <= (score % 10)) plm = '+';
+		else if(4 > (score % 10)) plm = '-';
 		
-		System.out.printf("%c%c", grade, plm);
+		System.out.printf("%c" + "%c", grade, plm);
 	}
 }
 /*
@@ -36,4 +35,27 @@ public class Grade {
 
 점수: 100
 A+
+*/
+/* 답안
+		int score = 0;
+		int tenDigit = 0;
+		int oneDigit = 0;
+		String grade = "";
+		
+		Stystem.out.print("점수: ");
+		score = sc.nextInt();
+		
+		tenDigit = score / 10;
+		oneDigit = score % 10;
+		
+		if(tenDigit >= 9) grade = "A";
+		else if(tenDigit >= 8) grade = "B";
+		else grade = "C";
+		
+		if(score >= 80) {
+			if(oneDigit >= 8 || tenDigit == 10) grade += "+";
+			else if(0 <= oneDigit && oneDigit < 4) grade += "-";
+		}
+		
+		System.out.println(grade);
 */
