@@ -55,6 +55,11 @@ Me: 보
 You win.
 */
 /*답안
+ 
+
+
+		
+		
 		Scanner sc = new Scanner(System.in);
 		int playerChoice = 0;
 		int appChoice = 0;
