@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class User {
 	private String userName;
 	private int age;
-	private LocalDate joinDate;
+	private LocalDate regDate;
 	
 	public void setUserName(String userName) {
 		this.userName = userName; 
@@ -15,19 +15,19 @@ public class User {
 		this.age = age;
 	}	
 	
-	public void setJoinDate(LocalDate joinDate) {
-		this.joinDate = joinDate; 
+	public void setRegDate(LocalDate regDate) {
+		this.regDate = regDate; 
 	}
 	
 	public String getUserName() {
-		return this.userName;
+		return userName;
 	}
 	
 	public int getAge() {
-		return this.age;
+		return age;
 	}
 
-	public LocalDate getJoinDate() {
-		return this.joinDate; 
+	public LocalDate getRegDate() {
+		return regDate; 
 	}
 }
