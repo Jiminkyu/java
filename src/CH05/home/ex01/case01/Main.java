@@ -18,7 +18,7 @@ public class Main {
 				flower2.flowerName, flower2.petalLength, flower2.sepalLength);	
 	}
 }
-/*
+/* 실패
 창포꽃은 꽃잎 길이가 7cm, 꽃받침 길이가 2cm 입니다.
 코스모스는 꽃잎 길이가 4cm, 꽃받침 길이가 1cm 입니다.
 */

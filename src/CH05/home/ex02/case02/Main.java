@@ -31,7 +31,7 @@ public class Main {
 		System.out.printf("%s from %s", paper.getMsg(), paper.getWriterName());
 	}
 }
-/*
+/* 실패
 과제: 종이에 메세지와 작성자명을 기록하라.
 --
 

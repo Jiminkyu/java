@@ -15,7 +15,7 @@ public class Main {
 		man.run();
 	}
 }
-/*
+/* 성공!
 남자 객체만을 class 로 디자인하라.
 --
 

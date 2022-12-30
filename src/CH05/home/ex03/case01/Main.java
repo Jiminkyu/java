@@ -8,7 +8,7 @@ public class Main {
 		cat.setCatName("야코미");
 	}
 }
-/*
+/*실패
 검은 고양이 한 마리를 주웠습니다.
 야코미라고 이름을 지었습니다.
 */

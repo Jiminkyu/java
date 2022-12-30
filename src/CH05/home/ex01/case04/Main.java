@@ -40,7 +40,7 @@ public class Main {
 				user.getUserName(), user.getAge(), user.getRegDate());
 	}
 }
-/*
+/* 실패
 과제: user를 생성하라.
 user가 user의 이름, 나이를 입력한다.
 app이 user의 가입일을 입력한다.
