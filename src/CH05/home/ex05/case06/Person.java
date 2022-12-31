@@ -1,0 +1,25 @@
+package CH05.home.ex05.case06;
+
+public class Person {
+	private String personName;
+	private Phone phone;
+	
+	public void message() {
+		phone.message();
+	}
+	
+	public void call() {
+		phone.call();
+	}
+	
+	public void game() {
+		phone.game();
+	}
+	
+	public void setPhone(Phone phone) {
+		this.phone = phone;
+	}
+	public void setPersonName(String personName) {
+		this.personName = personName;
+	}
+}
