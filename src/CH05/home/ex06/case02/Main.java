@@ -1,7 +1,5 @@
 package CH05.home.ex06.case02;
 
-import CH05.ex06.case02.Console;
-
 public class Main {
 	public static void main(String[] args) {
 		Console.inStr("문자를 입력하세요.");
@@ -11,7 +9,7 @@ public class Main {
 	}
 	
 }
-/*
+/* 실패
 과제: ch05.ex06.case02.Console 을 고도화 하라.
 Console.inStr(): 문자를 입력한다.
 Console.inStr(): 자연수를 입력한다.

@@ -14,35 +14,38 @@ public class Console {
 		System.out.print(msg + "\n> ");
 	}
 	
-	public static void err(String msg) {
-		System.out.println("ERROR] " + msg);
-	}
-	
-	
 	public static String inStr(String msg) {
+		String input = "";
 		boolean isGood = false;
-		String tmp = "";
+		
 		do {
 			Console.inMsg(msg);
-			tmp = sc.nextLine();
-			isGood = tmp.matches("[a-zA-Z가-힣]+");
+			input = sc.nextLine();
+			isGood = input.matches("[a-zA-Z가-힣]+");
 			if(!isGood) Console.err("문자가 아닙니다.");
 		} while(!isGood);
-		return tmp;
+		
+		return input;
 	}
 	public static int inNum(String msg) {
+		String input = "";
 		boolean isGood = false;
-		String tmp = "";
+		
 		do {
 			Console.inMsg(msg);
-			isGood = sc.nextLine().matches("[0-9]+");
-			Console.err(msg);
+			input = sc.nextLine();
+			isGood = input.matches("^[1-9][0-9]*");
+			if(!isGood) Console.err("자연수가 아닙니다.");
 		} while(!isGood);
-		int num = sc.nextInt(); sc.nextLine();
-		return num;
+		
+		return Integer.parseInt(input);
 	}
 	
 	public static void info(String msg) {
 		System.out.println(msg);
+	}
+	
+	public static void err(String msg) {
+		System.out.println("ERROR] " + msg);
 	}
 }
