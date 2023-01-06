@@ -5,7 +5,6 @@ public class Score {
 	private int eng;
 	private int math;
 	private int sum;
-	
 	private int avg;
 	
 	public Score(int kor, int eng, int math) {
@@ -13,8 +12,6 @@ public class Score {
 		this.eng = eng;
 		this.math = math;
 	}
-	
-	
 	
 	public int getKor() {
 		return kor;
@@ -25,25 +22,21 @@ public class Score {
 		return eng;
 	}
 
-
-
 	public int getMath() {
 		return math;
 	}
-
-
 
 	public void setSum(int sum) {
 		this.sum = sum;
 	}
 
-
+	public int getSum() {
+		return sum;
+	}
 
 	public void setAvg(int avg) {
 		this.avg = avg;
 	}
-
-
 
 	@Override
 	public String toString() {

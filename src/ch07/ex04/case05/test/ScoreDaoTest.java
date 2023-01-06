@@ -11,12 +11,12 @@ public class ScoreDaoTest {
 		Score score2 = new Score(10, 10, 10);
 		
 		Score[] scores = new Score[2];
-		ScoreDao ScoreDao = new ScoreDaoImpl(scores);
+		ScoreDao scoreDao = new ScoreDaoImpl(scores);
 		
-	//	scoreDao.insertScore(score1);
-	//	scoreDao.insertScore(score1);
+		scoreDao.insertScore(score1);
+		scoreDao.insertScore(score2);
 		
-	//	scores = scoreDao.selectScores();
+		scores = scoreDao.selectScores();
 		for(Score score: scores) System.out.println(score);
 	}
 }
