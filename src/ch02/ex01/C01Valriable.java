@@ -21,6 +21,5 @@ public class C01Valriable {
 		int a;
 		a = 0; //initialization
 		
-		
 	}
 }
