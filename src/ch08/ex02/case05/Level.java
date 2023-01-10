@@ -14,6 +14,7 @@ public enum Level {
 	public int value() {
 		return this.value;
 	}
+	
 	public Level next() {
 		return this.next;
 	}

@@ -1,4 +1,3 @@
-
 package ch08.ex01;
 
 @Universal
