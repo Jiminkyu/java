@@ -1,7 +1,5 @@
 package ch07.ex05.case05;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Main3 {
 	public static void main(String[] args) {
